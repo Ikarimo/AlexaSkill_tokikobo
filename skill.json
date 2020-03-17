@@ -1,0 +1,82 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "ja-JP": {
+          "summary": "しおりのセリフをしゃべらせます。",
+          "examplePhrases": [
+            "ときめきコボリアルを開いて"
+          ],
+          "keywords": [
+            "ときめきコボリアル"
+          ],
+          "name": "ときめきコボリアル（セリフ）",
+          "smallIconUri": "file://assets/images/ja-JP_smallIconUri.png",
+          "description": "COBOLをAWS上で動かすCOBOLハッカソンのために開発した専用スキルです。セリフをしゃべらせます。",
+          "largeIconUri": "file://assets/images/ja-JP_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "sourceLocaleForLanguages": [],
+        "isActive": false
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Sample Testing Instructions.",
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionMode": "PUBLIC",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:753803629529:function:839a5167-dbff-4f80-9a9f-71c87b024dae:Release_0"
+        },
+        "interfaces": [
+          {
+            "type": "AUDIO_PLAYER"
+          }
+        ]
+      }
+    },
+    "manifestVersion": "1.0",
+    "permissions": [
+      {
+        "name": "alexa::alerts:reminders:skill:readwrite"
+      },
+      {
+        "name": "alexa::person_id:read"
+      },
+      {
+        "name": "alexa::devices:all:notifications:write"
+      }
+    ],
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "ja-JP": {
+          "termsOfUseUrl": "https://www.google.com",
+          "privacyPolicyUrl": "https://www.google.com"
+        }
+      },
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    },
+    "events": {
+      "subscriptions": [
+        {
+          "eventName": "SKILL_PROACTIVE_SUBSCRIPTION_CHANGED"
+        }
+      ],
+      "endpoint": {
+        "uri": "arn:aws:lambda:us-east-1:753803629529:function:839a5167-dbff-4f80-9a9f-71c87b024dae:Release_0"
+      },
+      "publications": [
+        {
+          "eventName": "AMAZON.MessageAlert.Activated"
+        }
+      ]
+    }
+  }
+}

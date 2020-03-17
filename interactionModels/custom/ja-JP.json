@@ -1,0 +1,100 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "ときめきコボリアル",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.PauseIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.ResumeIntent",
+          "samples": []
+        },
+        {
+          "name": "AudioStartIntent",
+          "slots": [],
+          "samples": [
+            "BGMを再生して",
+            "bgm"
+          ]
+        },
+        {
+          "name": "ArasujiIntent",
+          "slots": [],
+          "samples": [
+            "最初から",
+            "あらすじ"
+          ]
+        },
+        {
+          "name": "YobidashiIntent",
+          "slots": [],
+          "samples": [
+            "呼び出し"
+          ]
+        },
+        {
+          "name": "ShoshinshaIntent",
+          "slots": [],
+          "samples": [
+            "恋愛初心者"
+          ]
+        },
+        {
+          "name": "OmoideIntent",
+          "slots": [],
+          "samples": [
+            "思い出"
+          ]
+        },
+        {
+          "name": "ChukyushaIntent",
+          "slots": [],
+          "samples": [
+            "恋愛中級者"
+          ]
+        },
+        {
+          "name": "KokuhakuIntent",
+          "slots": [],
+          "samples": [
+            "告白"
+          ]
+        },
+        {
+          "name": "HappyEndIntent",
+          "slots": [],
+          "samples": [
+            "ハッピーエンド"
+          ]
+        },
+        {
+          "name": "OnnagokoroIntent",
+          "slots": [],
+          "samples": [
+            "女心って難しい"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "15"
+}
